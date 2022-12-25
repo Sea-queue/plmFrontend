@@ -1,0 +1,21 @@
+.dataRevise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+
+#title{
+    text-align: center;
+    background-color: #47546e;
+    min-height: 10vh;
+    min-width: 35cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(20px + 2vmin);
+    color: gold;
+    margin-bottom: 1cm;
+}

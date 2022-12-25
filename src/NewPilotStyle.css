@@ -1,0 +1,102 @@
+#newPilot{
+    background-color: rgb(8, 205, 166);
+}
+
+.stages {
+    display: flex;
+    flex-direction: column;
+    width: 4cm;
+    height: 1cm;
+    position: absolute;
+    margin-left: 1cm;
+    padding-top: 10px;
+}
+
+.dataInput {
+    text-align: center;
+    /* background-color: #47546e; */
+    min-height: 2cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(20px + 2vmin);
+    color: gold;
+    padding: 5px;
+}
+
+.stage {
+    /* background-color: #47546e; */
+    min-height: 30vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+}
+
+.section1 {
+    background-color: #2f343d;
+    min-height: 30vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 15px;
+    color: white;
+    padding: 6px;
+}
+
+/* #subsec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#subsec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1cm;
+} */
+
+.section2 {
+    background-color: #2f343d;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 15px;
+    color: white;
+    padding: 6px;
+}
+
+.section5 {
+    background-color: #2f343d;
+    min-height: 30vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+}
+
+#labels {
+    margin-left: 0px;
+}
+
+.submitBtn:hover {
+    background-color: rgb(7, 139, 149);
+    cursor: pointer;
+}
+
+input[type=submit] {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: gold;
+    cursor: pointer;
+}

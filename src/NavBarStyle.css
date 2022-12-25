@@ -1,0 +1,33 @@
+@media screen and (max-width: 500px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        /* background-color: rgb(8, 205, 166); */
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    /* background-color: rgb(8, 205, 166); */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar>a {
+    color: black;    
+}
+
+#page {
+    margin: 5px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
